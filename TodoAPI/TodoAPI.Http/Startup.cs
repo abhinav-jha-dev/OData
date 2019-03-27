@@ -26,7 +26,6 @@ namespace OData.Http
         public void ConfigureServices(IServiceCollection services)
         {
             // Start Application Dependencies
-            services.AddScoped<ITodoService>(x => new TodoService(Configuration.GetValue<string>("ConnectionSettings:MongoDB"), Configuration.GetValue<string>("Databases:ApplicationDatabase")));
             services.AddScoped<IAuthorService>(x => new AuthorService(Configuration.GetValue<string>("ConnectionSettings:MongoDB"), Configuration.GetValue<string>("Databases:ApplicationDatabase")));
             // End Application Dependencies
             
