@@ -50,10 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-/Source/OData.Http/obj
-/Source/OData.Http/bin/Debug/netcoreapp2.1
+/TodoAPI/TodoAPI.Http/obj
+/TodoAPI/TodoAPI.Http/bin/Debug/netcoreapp2.1
 *.user
-/Source/OData.Service.Mongo/bin/Debug/netcoreapp2.1
-/Source/OData.Service.Mongo/obj
-/Source/.vs
+/TodoAPI/TodoAPI.Service.Mongo/bin/Debug/netcoreapp2.1
+/TodoAPI/TodoAPI.Service.Mongo/obj
+/TodoAPI/.vs
 .vscode

@@ -14,6 +14,6 @@
     <PackageReference Include="Microsoft.AspNetCore.OData" Version="7.1.0"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OData.Service.Mongo\OData.Service.Mongo.csproj"/>
+    <ProjectReference Include="..\TodoAPI.Service.Mongo\TodoAPI.Service.Mongo.csproj"/>
   </ItemGroup>
 </Project>

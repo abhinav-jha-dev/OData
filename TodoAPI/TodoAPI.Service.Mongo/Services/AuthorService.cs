@@ -6,7 +6,7 @@ using System.Text;
 
 namespace OData.Service.Mongo.Services
 {
-    public class AuthorService : MongoEntityService<Todo>, IAuthorService
+    public class AuthorService : MongoEntityService<Author>, IAuthorService
     {
         public AuthorService(string connectionString, string databaseName) : base(connectionString, databaseName)
         {

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OData.Http", "OData.Http\OData.Http.csproj", "{A88D6A1E-8611-4549-B084-77BA063C44BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoAPI.Http", "TodoAPI.Http\TodoAPI.Http.csproj", "{A88D6A1E-8611-4549-B084-77BA063C44BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OData.Service.Mongo", "OData.Service.Mongo\OData.Service.Mongo.csproj", "{53B6AE72-81AE-48C6-8F3B-99143AC1DDD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoAPI.Service.Mongo", "TodoAPI.Service.Mongo\TodoAPI.Service.Mongo.csproj", "{53B6AE72-81AE-48C6-8F3B-99143AC1DDD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
