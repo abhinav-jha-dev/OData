@@ -56,3 +56,4 @@ dkms.conf
 /Source/OData.Service.Mongo/bin/Debug/netcoreapp2.1
 /Source/OData.Service.Mongo/obj
 /Source/.vs
+.vscode
