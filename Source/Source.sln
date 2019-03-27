@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OData.Http", "OData.Http\OData.Http.csproj", "{A88D6A1E-8611-4549-B084-77BA063C44BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OData.Service.Mongo", "OData.Service.Mongo\OData.Service.Mongo.csproj", "{53B6AE72-81AE-48C6-8F3B-99143AC1DDD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A88D6A1E-8611-4549-B084-77BA063C44BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88D6A1E-8611-4549-B084-77BA063C44BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88D6A1E-8611-4549-B084-77BA063C44BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88D6A1E-8611-4549-B084-77BA063C44BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B6AE72-81AE-48C6-8F3B-99143AC1DDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B6AE72-81AE-48C6-8F3B-99143AC1DDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B6AE72-81AE-48C6-8F3B-99143AC1DDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B6AE72-81AE-48C6-8F3B-99143AC1DDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {761E83B5-3CEF-418F-B76F-16D9B1212C07}
+	EndGlobalSection
+EndGlobal
