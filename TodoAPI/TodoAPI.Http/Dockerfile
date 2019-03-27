@@ -7,16 +7,16 @@ EXPOSE 80
 
 FROM microsoft/dotnet:2.1-sdk-nanoserver-1803 AS build
 WORKDIR /src
-COPY ["Source/OData.Http.csproj", "Source/"]
-RUN dotnet restore "Source/OData.Http.csproj"
+COPY ["Source/TodoAPI.Http.csproj", "Source/"]
+RUN dotnet restore "Source/TodoAPI.Http.csproj"
 COPY . .
-WORKDIR "/src/OData.Http"
-RUN dotnet build "OData.Http.csproj" -c Release -o /app
+WORKDIR "/src/TodoAPI.Http"
+RUN dotnet build "TodoAPI.Http.csproj" -c Release -o /app
 
 FROM build AS publish
-RUN dotnet publish "OData.Http.csproj" -c Release -o /app
+RUN dotnet publish "TodoAPI.Http.csproj" -c Release -o /app
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "OData.Http.dll"]
+ENTRYPOINT ["dotnet", "TodoAPI.Http.dll"]

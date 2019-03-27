@@ -1,7 +1,7 @@
-using OData.Service.Mongo.Entity;
-using OData.Service.Mongo.Models;
+using Todo.Service.Mongo.Entity;
+using Todo.Service.Mongo.Models;
 
-namespace OData.Service.Mongo.Services
+namespace Todo.Service.Mongo.Services
 {
     public interface IAuthorService: IEntityMongoService<Author>
     {

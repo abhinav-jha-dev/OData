@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using OData.Service.Mongo.Models;
-using OData.Service.Mongo.Services;
+using Todo.Service.Mongo.Models;
+using Todo.Service.Mongo.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OData.Http.Controllers
+namespace TodoAPI.Http.Controllers
 {
     [Route("api/[controller]")]
     public class AuthorController : ControllerBase

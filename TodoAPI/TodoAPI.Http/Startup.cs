@@ -9,9 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using OData.Service.Mongo.Services;
+using Todo.Service.Mongo.Services;
 
-namespace OData.Http
+namespace TodoAPI.Http
 {
     public class Startup
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OData.Service.Mongo.Entity
+namespace Todo.Service.Mongo.Entity
 {
     public interface IBaseEntity
     {

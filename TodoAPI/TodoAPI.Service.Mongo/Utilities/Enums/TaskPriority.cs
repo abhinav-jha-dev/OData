@@ -1,4 +1,4 @@
-﻿namespace OData.Service.Mongo.Utilities.Enums
+﻿namespace Todo.Service.Mongo.Utilities.Enums
 {
     public enum TaskPriority
     {

@@ -1,4 +1,4 @@
-﻿namespace OData.Service.Mongo.Entity
+﻿namespace Todo.Service.Mongo.Entity
 {
     using MongoDB.Driver;
     using System;

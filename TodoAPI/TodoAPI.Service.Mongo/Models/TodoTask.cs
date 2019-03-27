@@ -1,9 +1,9 @@
-using OData.Service.Mongo.Entity;
-using OData.Service.Mongo.Utilities.Enums;
+using Todo.Service.Mongo.Entity;
+using Todo.Service.Mongo.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 
-namespace OData.Service.Mongo.Models
+namespace Todo.Service.Mongo.Models
 {
     public class TodoTask
     {
