@@ -14,7 +14,7 @@ To read more on my findings please have a look on my [GitPad][OData-Gitpad]
 ## Getting Started
 Clone Repository:
 ```sh
-git clone https://github.com/abhinav2127/OData-Boilerplate.git
+git clone https://github.com/abhinav2127/Gitpad.git
 ```
 
 Build Repository:
