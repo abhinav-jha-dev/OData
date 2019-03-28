@@ -62,6 +62,7 @@
             return list;
         }
 
+        [Obsolete]
         public async Task<long> Count()
         {
             var filter = Builders<T>.Filter.Empty;

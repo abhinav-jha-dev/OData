@@ -8,10 +8,10 @@ namespace Todo.Service.Mongo.Models
     public class Author : IBaseEntity
     {
         [Key]
-        public Guid Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
         [Required]
         public string Name { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
         public string Description { get; set; }
 
         public IList<TodoTask> Tasks { get; set; }

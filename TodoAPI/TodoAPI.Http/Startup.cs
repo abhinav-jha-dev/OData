@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web.Http;
 using Microsoft.AspNet.OData.Builder;
 using Microsoft.AspNet.OData.Extensions;
 using Microsoft.AspNetCore.Builder;
@@ -32,6 +33,8 @@ namespace TodoAPI.Http
             // Application Dependencies
             services.AddScoped<IAuthorService>(x => new AuthorService(Configuration.GetValue<string>("ConnectionSettings:MongoDB"), Configuration.GetValue<string>("Databases:ApplicationDatabase")));
             // ---
+
+            // System.Web.HttpUtility..MapHttpAttributeRoutes();
 
             // Register Services through Dependency Injection Register the OData Services
             services.AddOData();
@@ -65,7 +68,13 @@ namespace TodoAPI.Http
         private static IEdmModel GetEdmModel()
         {
             ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
-            builder.EntitySet<Author>("Author");
+            builder.EntitySet<Author>("Author").EntityType
+        .Filter()
+        .Count()
+        .Expand()
+        .OrderBy()
+        .Page()
+        .Select();
             builder.EntityType<Author>().HasKey(ai => ai.Id);
             return builder.GetEdmModel();
         }

@@ -4,6 +4,7 @@
     {
         Completed = 3,
         Progress = 2,
-        Cancled = 1
+        Canceled = 1,
+        Created = 0
     }
 }
